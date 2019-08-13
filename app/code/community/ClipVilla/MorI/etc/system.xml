@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+*ClipVilla Video Producer
+*
+*The ClipVilla Video Producer's code is created by ClipVilla GmbH. 
+*If the code is completely or partially changed by a third party all guarantee and warranty claims against ClipVilla GmbH will be invalidated.
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the GNU General Public License (GPLv3)
+* It is available through the world-wide-web at this URL:
+* http://www.gnu.org/licenses/quick-guide-gplv3.html.en
+*/
+-->
+<config>
+    <tabs>
+        <clipvilla translate="label" module="clipvilla_mori">
+            <label>ClipVilla</label>
+            <sort_order>100</sort_order>
+        </clipvilla>
+    </tabs>
+    <sections>
+        <clipvilla translate="label" module="clipvilla_mori">
+            <label>Video Producer</label>
+            <tab>clipvilla</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>0</show_in_website>
+            <show_in_store>0</show_in_store>
+            <groups>
+                <info>
+                    <label>Package Information</label>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <module_information>
+                            <label>Module Information</label>
+                            <frontend_type>text</frontend_type>
+                            <frontend_model>clipvilla_mori/adminhtml_info</frontend_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </module_information>
+                    </fields>
+                </info>
+                <configuration translate="label" module="clipvilla_mori">
+                    <label>Basic Configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <activate translate="label">
+                            <label>Activate Module: </label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </activate>
+                        <license_key translate="label">
+                            <label>License Key: </label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </license_key>
+                        <video_folder translate="label">
+                            <label>Video Folder: </label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </video_folder>
+                    </fields>
+                </configuration>
+                <custom_data translate="label" module="clipvilla_mori">
+                    <label>Global Video Parameters</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>2000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <default_template translate="label comment">
+                            <label>Video Template</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>clipvilla_mori/system_config_source_templateSelect</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </default_template>
+                        <shop translate="label">
+                            <label>Shop Name/ URL: </label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+							<validate>required-entry</validate>
+                        </shop>
+                        <usp_one translate="label">
+                            <label>Video Text 1: </label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+							<validate>required-entry</validate>
+                        </usp_one>
+                        <usp_two translate="label">
+                            <label>Video Text 2: </label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+							<validate>required-entry</validate>
+                        </usp_two>
+                        <usp_three translate="label">
+                            <label>Video Text 3: </label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+							<validate>required-entry</validate>
+                        </usp_three>
+                    </fields>
+                </custom_data>
+                <rendering translate="label" module="clipvilla_mori">
+                    <label>Notification Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>3000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <messages translate="label">
+                            <label>Show Rendering Messages: </label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </messages>
+                        <allow_mail translate="label">
+                            <label>Email Error Notification: </label>
+                            <comment>Sends an Email if rendering fails.</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </allow_mail>
+                        <mail translate="label">
+                            <label>Email: </label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <depends><allow_mail>1</allow_mail></depends>
+                        </mail>
+                    </fields>
+                </rendering>
+            </groups>
+        </clipvilla>
+    </sections>
+</config>

@@ -1,0 +1,42 @@
+<?php
+/**
+*ClipVilla Video Producer
+*
+*The ClipVilla Video Producer's code is created by ClipVilla GmbH. 
+*If the code is completely or partially changed by a third party all guarantee and warranty claims against ClipVilla GmbH will be invalidated.
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the GNU General Public License (GPLv3)
+* It is available through the world-wide-web at this URL:
+* http://www.gnu.org/licenses/quick-guide-gplv3.html.en
+*/
+?>
+
+<?php
+/**
+ * @see ClipVilla_MorI_Block_Adminhtml_Notifications
+ */
+?>
+<?php
+    $count = $this->getStackCount();
+    $lastRendered = $this->getLastRendered();
+?>
+
+<?php if (Mage::getStoreConfig('clipvilla/rendering/messages') && ($count || $lastRendered['name'])): ?>
+    <div class="notification-global">
+        <?php if ($count): ?>
+			<?php echo $this->__('Videos in Rendering Queue:'); ?> <strong><?php echo $count ?></strong>
+        <?php endif; ?>
+
+        <?php if ($count && $lastRendered['name']): ?>
+        |
+        <?php endif; ?>
+
+        <?php if ($lastRendered['name']): ?>
+            <?php echo $this->__('Last rendered Video:'); ?>
+            <strong><?php echo $lastRendered['name']; ?></strong>
+            (<?php echo $this->__('Product ID'); ?> <?php echo $lastRendered['id']; ?>)
+        <?php endif; ?>
+    </div>
+<?php endif; ?>

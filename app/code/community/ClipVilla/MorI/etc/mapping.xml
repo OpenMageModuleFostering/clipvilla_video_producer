@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+/**
+*ClipVilla Video Producer
+*
+*The ClipVilla Video Producer's code is created by ClipVilla GmbH. 
+*If the code is completely or partially changed by a third party all guarantee and warranty claims against ClipVilla GmbH will be invalidated.
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the GNU General Public License (GPLv3)
+* It is available through the world-wide-web at this URL:
+* http://www.gnu.org/licenses/quick-guide-gplv3.html.en
+*/
+-->
+<projectMapping>
+
+    <mapping>
+        <renderProjectId>2</renderProjectId>
+        <templateName>Lens Flare</templateName>
+        <duration>27</duration>
+        <textDZs>
+            <textDZ>
+                <name>ShopName</name>
+                <dz>1</dz>
+            </textDZ>
+            <textDZ>
+                <name>Name</name>
+                <dz>3</dz>
+            </textDZ>
+            <textDZ>
+                <name>UspOne</name>
+                <dz>5</dz>
+            </textDZ>
+            <textDZ>
+                <name>UspTwo</name>
+                <dz>7</dz>
+            </textDZ>
+            <textDZ>
+                <name>UspThree</name>
+                <dz>9</dz>
+            </textDZ>
+        </textDZs>
+        <imageDZs>
+            <imageDZ>
+                <name>ImageOne</name>
+                <dz>2</dz>
+            </imageDZ>
+            <imageDZ>
+                <name>ImageTwo</name>
+                <dz>4</dz>
+            </imageDZ>
+            <imageDZ>
+                <name>ImageThree</name>
+                <dz>6</dz>
+            </imageDZ>
+            <imageDZ>
+                <name>ImageFour</name>
+                <dz>8</dz>
+            </imageDZ>
+        </imageDZs>
+    </mapping>
+
+    <mapping>
+        <renderProjectId>3</renderProjectId>
+        <templateName>Circles</templateName>
+        <duration>27</duration>
+        <textDZs>
+            <textDZ>
+                <name>ShopName</name>
+                <dz>1</dz>
+            </textDZ>
+            <textDZ>
+                <name>Name</name>
+                <dz>3</dz>
+            </textDZ>
+            <textDZ>
+                <name>UspOne</name>
+                <dz>5</dz>
+            </textDZ>
+            <textDZ>
+                <name>UspTwo</name>
+                <dz>7</dz>
+            </textDZ>
+            <textDZ>
+                <name>UspThree</name>
+                <dz>9</dz>
+            </textDZ>
+        </textDZs>
+        <imageDZs>
+            <imageDZ>
+                <name>ImageOne</name>
+                <dz>2</dz>
+            </imageDZ>
+            <imageDZ>
+                <name>ImageTwo</name>
+                <dz>4</dz>
+            </imageDZ>
+            <imageDZ>
+                <name>ImageThree</name>
+                <dz>6</dz>
+            </imageDZ>
+            <imageDZ>
+                <name>ImageFour</name>
+                <dz>8</dz>
+            </imageDZ>
+        </imageDZs>
+    </mapping>
+
+    <mapping>
+        <renderProjectId>4</renderProjectId>
+        <templateName>Portrait</templateName>
+        <duration>27</duration>
+        <textDZs>
+            <textDZ>
+                <name>ShopName</name>
+                <dz>1</dz>
+            </textDZ>
+            <textDZ>
+                <name>Name</name>
+                <dz>3</dz>
+            </textDZ>
+            <textDZ>
+                <name>UspOne</name>
+                <dz>5</dz>
+            </textDZ>
+            <textDZ>
+                <name>UspTwo</name>
+                <dz>7</dz>
+            </textDZ>
+            <textDZ>
+                <name>UspThree</name>
+                <dz>9</dz>
+            </textDZ>
+        </textDZs>
+        <imageDZs>
+            <imageDZ>
+                <name>ImageOne</name>
+                <dz>2</dz>
+            </imageDZ>
+            <imageDZ>
+                <name>ImageTwo</name>
+                <dz>4</dz>
+            </imageDZ>
+            <imageDZ>
+                <name>ImageThree</name>
+                <dz>6</dz>
+            </imageDZ>
+            <imageDZ>
+                <name>ImageFour</name>
+                <dz>8</dz>
+            </imageDZ>
+        </imageDZs>
+    </mapping>
+
+    <mapping>
+        <renderProjectId>5</renderProjectId>
+        <templateName>Hands Push</templateName>
+        <duration>27</duration>
+        <textDZs>
+            <textDZ>
+                <name>ShopName</name>
+                <dz>1</dz>
+            </textDZ>
+            <textDZ>
+                <name>Name</name>
+                <dz>3</dz>
+            </textDZ>
+            <textDZ>
+                <name>UspOne</name>
+                <dz>5</dz>
+            </textDZ>
+            <textDZ>
+                <name>UspTwo</name>
+                <dz>7</dz>
+            </textDZ>
+            <textDZ>
+                <name>UspThree</name>
+                <dz>9</dz>
+            </textDZ>
+        </textDZs>
+        <imageDZs>
+            <imageDZ>
+                <name>ImageOne</name>
+                <dz>2</dz>
+            </imageDZ>
+            <imageDZ>
+                <name>ImageTwo</name>
+                <dz>4</dz>
+            </imageDZ>
+            <imageDZ>
+                <name>ImageThree</name>
+                <dz>6</dz>
+            </imageDZ>
+            <imageDZ>
+                <name>ImageFour</name>
+                <dz>8</dz>
+            </imageDZ>
+        </imageDZs>
+    </mapping>
+
+    <mapping>
+        <renderProjectId>6</renderProjectId>
+        <templateName>Sale</templateName>
+        <duration>28</duration>
+        <textDZs>
+            <textDZ>
+                <name>ShopName</name>
+                <dz>1</dz>
+            </textDZ>
+            <textDZ>
+                <name>Name</name>
+                <dz>3</dz>
+            </textDZ>
+            <textDZ>
+                <name>UspOne</name>
+                <dz>5</dz>
+            </textDZ>
+            <textDZ>
+                <name>UspTwo</name>
+                <dz>7</dz>
+            </textDZ>
+            <textDZ>
+                <name>UspThree</name>
+                <dz>9</dz>
+            </textDZ>
+        </textDZs>
+        <imageDZs>
+            <imageDZ>
+                <name>ImageOne</name>
+                <dz>2</dz>
+            </imageDZ>
+            <imageDZ>
+                <name>ImageTwo</name>
+                <dz>4</dz>
+            </imageDZ>
+            <imageDZ>
+                <name>ImageThree</name>
+                <dz>6</dz>
+            </imageDZ>
+            <imageDZ>
+                <name>ImageFour</name>
+                <dz>8</dz>
+            </imageDZ>
+        </imageDZs>
+    </mapping>
+
+</projectMapping>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--
+/**
+*ClipVilla Video Producer
+*
+*The ClipVilla Video Producer's code is created by ClipVilla GmbH. 
+*If the code is completely or partially changed by a third party all guarantee and warranty claims against ClipVilla GmbH will be invalidated.
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the GNU General Public License (GPLv3)
+* It is available through the world-wide-web at this URL:
+* http://www.gnu.org/licenses/quick-guide-gplv3.html.en
+*/
+-->
+<layout version="0.1.0">
+    <catalog_product_view translate="label">
+        <reference name="head">
+            <action method="addJs">
+                <script>clipvilla/video-js/video.js</script>
+            </action>
+            <action method="addItem">
+                <type>js_css</type>
+                <name>clipvilla/video-js/video-js.css</name>
+            </action>
+        </reference>
+        <reference name="content">
+            <reference name="product.info">
+                <block type="clipvilla_mori/videos" name="other" template="clipvilla/videos.phtml" before="-"/>
+            </reference>
+        </reference>
+    </catalog_product_view>
+</layout>

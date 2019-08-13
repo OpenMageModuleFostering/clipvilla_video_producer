@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <ClipVilla_MorI>
+            <active>true</active>
+            <codePool>community</codePool>
+        </ClipVilla_MorI>
+    </modules>
+</config>

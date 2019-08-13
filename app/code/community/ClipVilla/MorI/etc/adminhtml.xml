@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+*ClipVilla Video Producer
+*
+*The ClipVilla Video Producer's code is created by ClipVilla GmbH. 
+*If the code is completely or partially changed by a third party all guarantee and warranty claims against ClipVilla GmbH will be invalidated.
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the GNU General Public License (GPLv3)
+* It is available through the world-wide-web at this URL:
+* http://www.gnu.org/licenses/quick-guide-gplv3.html.en
+*/
+-->
+<config>
+    <menu>
+        <catalog>
+            <children>
+                <clipvilla_mori translate="title" module="clipvilla_mori">
+                    <sort_order>15</sort_order>
+                    <title>Manage Videos</title>
+                    <action>adminhtml/manageVideos/</action>
+                </clipvilla_mori>
+            </children>
+        </catalog>
+    </menu>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <catalog>
+                        <children>
+                            <clipvilla_mori>
+                                <title>Manage Videos</title>
+                            </clipvilla_mori>
+                        </children>
+                    </catalog>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <clipvilla>
+                                        <title>ClipVilla</title>
+                                    </clipvilla>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

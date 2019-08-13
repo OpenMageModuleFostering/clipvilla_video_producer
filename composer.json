@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/ClipVilla_Video_Producer",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License-(GPLv3)",
+    "homepage": "",
+    "description": "This extension is built to create and publish product videos from the images stored inside the product catalog.",
+    "authors": [
+    {
+        "name": "Jens Neumann",
+        "email": "sales@clipvilla.de"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

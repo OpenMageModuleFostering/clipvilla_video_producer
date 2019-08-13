@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!--
+/**
+*ClipVilla Video Producer
+*
+*The ClipVilla Video Producer's code is created by ClipVilla GmbH. 
+*If the code is completely or partially changed by a third party all guarantee and warranty claims against ClipVilla GmbH will be invalidated.
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the GNU General Public License (GPLv3)
+* It is available through the world-wide-web at this URL:
+* http://www.gnu.org/licenses/quick-guide-gplv3.html.en
+*/
+-->
+<layout>
+    <default>
+        <reference name="notifications">
+            <block type="clipvilla_mori/adminhtml_notifications" template="clipvilla/notifications.phtml" before="-" />
+        </reference>
+    </default>
+
+    <adminhtml_managevideos_index>
+        <reference name="head">
+            <action method="addJs">
+                <script>clipvilla/popup.js</script>
+            </action>
+            <action method="addItem">
+                <type>js_css</type>
+                <name>prototype/windows/themes/default.css</name>
+            </action>
+            <action method="addCss">
+                <name>lib/prototype/windows/themes/magento.css</name>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="clipvilla_mori/adminhtml_manageVideos" name="manageVideos" />
+        </reference>
+    </adminhtml_managevideos_index>
+
+    <adminhtml_managevideos_popup>
+        <reference name="head">
+            <action method="addJs">
+                <script>clipvilla/video-js/video.js</script>
+            </action>
+            <action method="addItem">
+                <type>js_css</type>
+                <name>clipvilla/video-js/video-js.css</name>
+            </action>
+        </reference>
+        <reference name="notifications">
+            <remove name="global_notices" />
+        </reference>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>empty.phtml</template>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="clipvilla_mori/adminhtml_manageVideos_popup" template="clipvilla/popup.phtml">
+            </block>
+        </reference>
+    </adminhtml_managevideos_popup>
+</layout>
