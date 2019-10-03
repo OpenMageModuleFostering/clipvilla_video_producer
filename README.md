@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 This extension is built to create and publish product videos from the images stored inside the product catalog.
